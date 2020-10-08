@@ -2,17 +2,21 @@ const { GraphQLServer } = require('graphql-yoga')
 const { PrismaClient } = require('@prisma/client')
 
 const prisma = new PrismaClient()
+const Query = require('./resolvers/Query')
+const Mutation = require('./resolvers/Mutation')
+const User = require('./resolvers/User')
+const Link = require('./resolvers/Link')
 
 // 1
 
-let links = [{
-  id: 'link-0',
-  url: 'www.howtographql.com',
-  description: 'Fullstack tutorial for GraphQL'
-}]
 
 // 1
-
+const resolvers = {
+  Query,
+  Mutation,
+  User,
+  Link
+}
 
 // 3
 
