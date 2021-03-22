@@ -15,7 +15,8 @@ GraphQL é freqüentemente confundido com uma tecnologia de banco de dados. Isso
 
 ## Tecnologias Utilizadas
 
- - <b>Graphql-yoga </b>: Um servidor GraphQL completo com foco na fácil configuração, desempenho e ótima experiência do desenvolvedor. Ele é construído em cima do Expresso , , e muito mais.apollo-servergraphql-js
+ - <b>Graphql-yoga </b>: Um servidor GraphQL completo com foco na fácil configuração, desempenho e ótima experiência do desenvolvedor. Ele é construído em cima do Express
+
  
  - <b>Prisma</b> : Substitui ORMs tradicionais. Use o Prisma Client para acessar seu banco de dados dentro dos resolvedores GraphQL.
  
